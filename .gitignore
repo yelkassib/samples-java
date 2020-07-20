@@ -1,6 +1,9 @@
 .DS_Store
 .gradle/
 .idea
+.project
+.classpath
+.settings/
 **/build/
 **/bin/
 */.gradle/

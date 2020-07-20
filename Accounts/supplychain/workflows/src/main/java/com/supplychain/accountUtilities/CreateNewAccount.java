@@ -7,7 +7,7 @@ import net.corda.core.contracts.StateAndRef;
 import net.corda.core.flows.*;
 import co.paralleluniverse.fibers.Suspendable;
 import com.r3.corda.lib.accounts.workflows.services.AccountService;
-import net.corda.core.flows.FlowLogic;;
+import net.corda.core.flows.FlowLogic;
 import net.corda.core.flows.StartableByRPC;
 
 import java.util.UUID;
@@ -21,6 +21,7 @@ public class CreateNewAccount extends FlowLogic<String>{
 
     public CreateNewAccount(String acctName) {
         this.acctName = acctName;
+        // This is a new comment to check if peer development is allowed
     }
 
 
